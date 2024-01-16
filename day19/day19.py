@@ -17,7 +17,7 @@ def josephus(n, k):
 
 
 def josephus2(n):
-    # Create 2 queues of equal size or (a diff or 1 for odd lengths)
+    # Create 2 queues of equal size or having a diff of 1 for odd lengths
     # we'll always pop from q2, so in odd lengths, length of q2 will be one more than q1
     q1 = deque()
     q2 = deque()
